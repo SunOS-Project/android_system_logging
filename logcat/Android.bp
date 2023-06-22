@@ -41,7 +41,6 @@ cc_binary {
     ],
     shared_libs: [
         "libbase",
-        "libutils",
         "libprocessgroup",
         "libprotobuf-cpp-lite",
     ],
@@ -50,7 +49,6 @@ cc_binary {
     srcs: [
         "logcat.cpp",
         "logcat.proto",
-        "process_names.cpp",
     ],
 }
 
